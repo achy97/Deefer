@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AirDroid Lite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>📱 AirDroid Lite (No Notification)</h2>
+
+<input type="file" id="fileInput">
+<button onclick="sendFile()">Send File</button>
+
+<p id="status">Disconnected</p>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
